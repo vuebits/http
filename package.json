@@ -1,9 +1,9 @@
 {
   "name": "@vuebits/http",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Vue plugin for BEM parameterization",
-  "main": "./dist/vuebits-bem.common.js",
-  "module": "./dist/vuebits-bem.common.js",
+  "main": "./dist/vuebits-http.common.js",
+  "module": "./dist/vuebits-http.common.js",
   "types": "./dist/types/index.d.ts",
   "author": "vuebits (https://github.com/vuebits)",
   "contributors": [
