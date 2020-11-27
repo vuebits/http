@@ -1,5 +1,5 @@
 import { createApp } from 'vue';
 import App from './App.vue';
-import { createApi } from '@/index';
+import { createHttp } from '@/index';
 
-createApp(App).use(createApi()).mount('#app');
+createApp(App).use(createHttp({})).mount('#app');

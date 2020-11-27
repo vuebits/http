@@ -1,8 +1,9 @@
 import { App } from 'vue';
 import { install } from './library';
+import { HttpOptions } from './models';
 
-export function createApi (): {install: (T: App) => void} {
+export function createHttp (options: HttpOptions): {install: (T: App) => void} {
   return {
-    install: (): void => install()
+    install: (app: App) => install(app, options)
   };
 }
