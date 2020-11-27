@@ -10,7 +10,7 @@
 
 * [Installation](#installation)
 * [API](#api)
-* [Documentation](#documentation)
+* [Examples](#examples)
 
 
 ## Installation
