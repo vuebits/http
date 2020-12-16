@@ -12,6 +12,10 @@ export class Http {
     this.interceptors = this.http.interceptors;
   }
 
+  public setBaseURL (baseURL: string): void {
+    this.http.defaults.baseURL = baseURL;
+  }
+
   public getUri (config?: AxiosRequestConfig): string {
     return this.http.getUri(config);
   }
